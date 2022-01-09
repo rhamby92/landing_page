@@ -13,6 +13,13 @@ header, .hero, footer{
     background-color: #1f2937;
 
 }
+img{
+    filter: grayscale(70%);
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/*=======TOP NAV============*/
 .top-nav{
     display: flex;
     justify-content: space-between;
@@ -22,6 +29,7 @@ header, .hero, footer{
 .header-logo{
     font-size: 24px;
     color: #f9faf8;
+    font-weight: bold;
 }
 ul{
     display: flex;
@@ -35,6 +43,7 @@ a{
     padding-left: 25px;
     
 }
+/*============HERO==============*/
 .hero{
    display: flex;
     padding-top: 100px;
@@ -49,13 +58,16 @@ a{
 
     
 }
+.hero-right{
+    padding-left: 70px;
+}
 .hero-left{
     width: 50%;
 }
 
 .hero-left h1{
     font-size: 48px;
-    font-weight: 900;
+    font-weight: bolder;
     color: #f9faf8;
 
 }
@@ -84,6 +96,7 @@ a{
     border-style: none;
     border-radius: 10px;
 }
+/*==============INFO CARDS=======*/
 .info{
     height: 525px;
     display: flex;
@@ -100,6 +113,7 @@ a{
 .info-heading{
     display: flex;
     justify-content: center;
+    color: #1f2937;
     
 
 }
@@ -111,6 +125,7 @@ a{
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding-left: 40px;
    
 }
 .image-container{
@@ -123,13 +138,15 @@ a{
 .image-with-description p{
     margin-top: 12px;
     line-height: 1.4;
+    color: hsl(215deg 14% 34%);
 }
 .info-images{
     margin-top: 50px;
 }
+/*==========QUOTE SECTION======*/
 .quote{
     background-color: #e5e7eb;
-    height: 450px;
+    height: 390px;
     padding: 80px;
     
 
@@ -148,19 +165,63 @@ a{
 .signature{
     display: flex;
     justify-content: flex-end;
-    font-size: 24px;
+    font-size: 26px;
     font-weight: bold;
     padding-right: 70px;
+    color: #1f2937;
 }
+/*======CALL TO ACTION SECTION=======*/
 .call-to-action{
-    height: 300px;
+    height: 350px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+   
+
 }
 .action-div{
+    height: 140px;
     background-color: #3882f6;
     color: #f9faf8;
     display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
     
 }
+.action-left h4{
+    font-size: 24px;
+    color: #f9faf8;
+}
+.action-left p{
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.bottom{
+    height: 40px;
+    width: 135px;
+    color: #f9faf8;
+    background-color: transparent;
+    margin-left: 175px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 18px;
+    
+    
+}
+/*=====FOOTER=====*/
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 300;
+  
+}
+
+
 
